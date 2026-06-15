@@ -37,7 +37,7 @@ if __name__ == "__main__":
     X_train = preprocess_images(X_train)
     X_test = preprocess_images(X_test)
 
-    X_train, X_val, y_train, y_val = validatiion_split(X_train, y_train)
+    X_train, X_val, y_train, y_val = validation_split(X_train, y_train)
 
     print("Training Shape :", X_train.shape)
     print("Validation Shape :", X_val.shape)
